@@ -64,7 +64,7 @@ while game_on:
         live.game_over()
         game_on = False
     # detect win
-    if score.score > 30:
+    if score.score > 107:
         score.game_won()
         game_on = False
 screen.exitonclick()
